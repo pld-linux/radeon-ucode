@@ -2,7 +2,7 @@
 %define		nameprog radeon
 
 Summary:	Firmware for the radeon driver
-Name:		%{nameprog}-firmware
+Name:		%{nameprog}-ucode
 Version:	20091209
 Release:	1
 License:	distributable
