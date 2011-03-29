@@ -3,7 +3,7 @@
 
 Summary:	Firmware for the radeon driver
 Name:		%{nameprog}-ucode
-Version:	20110120
+Version:	20110302
 Release:	1
 License:	distributable
 Group:		Base/Kernel
@@ -63,6 +63,14 @@ Source26:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_me.bin
 # Source26-md5:	8012e24b187c6b1ba17fa48691c3b048
 Source27:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_pfp.bin
 # Source27-md5:	25f26ba407a9bb13528b903c617209c8
+Source28:	http://people.freedesktop.org/~agd5f/radeon_ucode/CAYMAN_mc.bin
+# Source28-md5:	b8f97a70b25104e3ca24b8b8ade19997
+Source29:	http://people.freedesktop.org/~agd5f/radeon_ucode/CAYMAN_me.bin
+# Source29-md5:	5b4feb3f418fa1725ae7ea2633071118
+Source30:	http://people.freedesktop.org/~agd5f/radeon_ucode/CAYMAN_pfp.bin
+# Source30-md5:	53671bbdd823e4b14dbaab63bd5f248f
+Source31:	http://people.freedesktop.org/~agd5f/radeon_ucode/CAYMAN_rlc.bin
+# Source31-md5:	6190409ee8d4392f1d0f58751734e2e3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
