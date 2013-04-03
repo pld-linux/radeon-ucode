@@ -118,7 +118,7 @@ Source53:	http://people.freedesktop.org/~agd5f/radeon_ucode/TAHITI_pfp.bin
 Source54:	http://people.freedesktop.org/~agd5f/radeon_ucode/TAHITI_rlc.bin
 # Source54-md5:	8e3f8b42b798737b6888e89050e37c0e
 Source55:	http://people.freedesktop.org/~agd5f/radeon_ucode/TAHITI_uvd.bin
-# Source55-md5:	f791dbf736a82e6bd9bb249e87445c7f
+# Source55-md5:	201877fa59f2fe4d896d5e6b6c1d2e1c
 Source56:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_mc.bin
 # Source56-md5:	158f8e21ccf228ef063888c4f637fbf0
 Source57:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_me.bin
