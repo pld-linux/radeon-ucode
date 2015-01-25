@@ -1,4 +1,5 @@
 Summary:	Firmware for the radeon driver
+Summary(pl.UTF-8):	Firmware dla sterownika radeon
 Name:		radeon-ucode
 Version:	20140824
 Release:	1
@@ -400,7 +401,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This package contains the firmware for the radeon driver.
+This package contains the firmware for video adapters supported by the
+radeon driver.
+
+%description -l pl.UTF-8
+Ten pakiet zawiera firmware dla kart graficznych obsługiwanych przez
+sterownik radeon.
 
 %prep
 %setup -qcT
