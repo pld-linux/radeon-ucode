@@ -1,7 +1,7 @@
 Summary:	Firmware for the radeon driver
 Summary(pl.UTF-8):	Firmware dla sterownika radeon
 Name:		radeon-ucode
-Version:	20140824
+Version:	20150512
 Release:	1
 License:	distributable
 Group:		Base/Kernel
@@ -42,7 +42,7 @@ Source16:	http://people.freedesktop.org/~agd5f/radeon_ucode/BONAIRE_smc.bin
 Source17:	http://people.freedesktop.org/~agd5f/radeon_ucode/BONAIRE_uvd.bin
 # Source17-md5:	303438f5daec8e0661a3d1272606c558
 Source18:	http://people.freedesktop.org/~agd5f/radeon_ucode/BONAIRE_vce.bin
-# Source18-md5:	597dc206f6d1ca820283de6ab5f771fb
+# Source18-md5:	5f4ac48410818cde085ef2d92fc384f4
 Source19:	http://people.freedesktop.org/~agd5f/radeon_ucode/BTC_rlc.bin
 # Source19-md5:	25d61fad839b30b263f52328c1f678fb
 Source20:	http://people.freedesktop.org/~agd5f/radeon_ucode/CAICOS_mc.bin
@@ -245,158 +245,160 @@ Source118:	http://people.freedesktop.org/~agd5f/radeon_ucode/TAHITI_smc.bin
 # Source118-md5:	69d0115a4a07ba98b5ee56e41aac1c8f
 Source119:	http://people.freedesktop.org/~agd5f/radeon_ucode/TAHITI_uvd.bin
 # Source119-md5:	201877fa59f2fe4d896d5e6b6c1d2e1c
-Source120:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_mc.bin
-# Source120-md5:	158f8e21ccf228ef063888c4f637fbf0
-Source121:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_me.bin
-# Source121-md5:	8012e24b187c6b1ba17fa48691c3b048
-Source122:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_pfp.bin
-# Source122-md5:	25f26ba407a9bb13528b903c617209c8
-Source123:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_smc.bin
-# Source123-md5:	4fe0f4dafe21f0efa6301a888eed4470
-Source124:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_ce.bin
-# Source124-md5:	a5f07f65a9ef260c0077021ecae43dc7
-Source125:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_mc.bin
-# Source125-md5:	96b18c6f7c74ad4cecb04fca967ca433
-Source126:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_mc2.bin
-# Source126-md5:	eb438c8e418427754f69148f5d79a98d
-Source127:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_me.bin
-# Source127-md5:	a291d177203e882872ba809f82010077
-Source128:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_pfp.bin
-# Source128-md5:	8929a87c20f87426578518e3fafa12f2
-Source129:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_rlc.bin
-# Source129-md5:	f8ee65f13adc45fe229a48128b7cd8f2
-Source130:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_smc.bin
-# Source130-md5:	2443ed77790c7ba390db43903b8eebd5
-Source131:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_ce.bin
-# Source131-md5:	1123f14e071294d577c65cbbc27884a7
-Source132:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_mc.bin
-# Source132-md5:	5e7f277ceff8dc0c4bb1f6f5146881db
-Source133:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_me.bin
-# Source133-md5:	1d011d8983d53edfde379e8916c0d97a
-Source134:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_mec.bin
-# Source134-md5:	58a1feec7052752a54315f38fc6b42cc
-Source135:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_pfp.bin
-# Source135-md5:	0ec706849290c7f481291edd4aa78aad
-Source136:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_rlc.bin
-# Source136-md5:	e094737cc1e7fc3fb30d3c17a86a69e6
-Source137:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_sdma.bin
-# Source137-md5:	11288f635737331b69de9ee82fe04898
-Source138:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_smc.bin
-# Source138-md5:	7df97bcc5b153abde3d4d808677605dc
-Source139:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_ce.bin
-# Source139-md5:	be79aea072cb7cb9b17496fb48c104ce
-Source140:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_mc.bin
-# Source140-md5:	3514600ac9b7bba9cc333ff621427b54
-Source141:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_me.bin
-# Source141-md5:	d8c0004dba65d877af5658a0af02ddde
-Source142:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_pfp.bin
-# Source142-md5:	7924437fc064cb08e3d9bec1ce1dec68
-Source143:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_rlc.bin
-# Source143-md5:	fb3c0ee0c077dd5f76d51c07d5a50732
-Source144:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_smc.bin
-# Source144-md5:	7db1530ccaf78ff9fab04f118c1dc9c3
-Source145:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_ce.bin
-# Source145-md5:	9e05820da42549ce9c89d147cf1f8e19
-Source146:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_mc.bin
-# Source146-md5:	c8bab593090fc54f239c8d7596c8d846
-Source147:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_me.bin
-# Source147-md5:	3618dbb955d8a84970e262bb2e6d2a16
-Source148:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_mec.bin
-# Source148-md5:	c000b0fc9ff6582145f66504b0ec9597
-Source149:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_pfp.bin
-# Source149-md5:	0643ad24b3beff2214cce533e094c1b7
-Source150:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_rlc.bin
-# Source150-md5:	ba6054b7d78184a74602fd81607e1386
-Source151:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_sdma.bin
-# Source151-md5:	11288f635737331b69de9ee82fe04898
-Source152:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_smc.bin
-# Source152-md5:	284429675a5560e0fad42aa982965fc2
-Source153:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_ce.bin
-# Source153-md5:	1123f14e071294d577c65cbbc27884a7
-Source154:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_me.bin
-# Source154-md5:	0d18c7d2b00800e11ea36dd1f2865843
-Source155:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_mec.bin
-# Source155-md5:	ddbf1909f4adbd62bb6fa185fe91dd4d
-Source156:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_pfp.bin
-# Source156-md5:	44d44100ca58ebd214fb263e9d9fb460
-Source157:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_rlc.bin
-# Source157-md5:	7ce38ac95ca33974121971e8ca8986e3
-Source158:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_sdma.bin
-# Source158-md5:	11288f635737331b69de9ee82fe04898
-Source159:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_ce.bin
-# Source159-md5:	1123f14e071294d577c65cbbc27884a7
-Source160:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_me.bin
-# Source160-md5:	0d18c7d2b00800e11ea36dd1f2865843
-Source161:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_mec.bin
-# Source161-md5:	77d1ecdbecc82ee4d94ce09c97820f45
-Source162:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_mec2.bin
+Source120:	http://people.freedesktop.org/~agd5f/radeon_ucode/TAHITI_vce.bin
+# Source120-md5:	622766351d3dc201737370f5267e8b86
+Source121:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_mc.bin
+# Source121-md5:	158f8e21ccf228ef063888c4f637fbf0
+Source122:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_me.bin
+# Source122-md5:	8012e24b187c6b1ba17fa48691c3b048
+Source123:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_pfp.bin
+# Source123-md5:	25f26ba407a9bb13528b903c617209c8
+Source124:	http://people.freedesktop.org/~agd5f/radeon_ucode/TURKS_smc.bin
+# Source124-md5:	4fe0f4dafe21f0efa6301a888eed4470
+Source125:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_ce.bin
+# Source125-md5:	a5f07f65a9ef260c0077021ecae43dc7
+Source126:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_mc.bin
+# Source126-md5:	96b18c6f7c74ad4cecb04fca967ca433
+Source127:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_mc2.bin
+# Source127-md5:	eb438c8e418427754f69148f5d79a98d
+Source128:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_me.bin
+# Source128-md5:	a291d177203e882872ba809f82010077
+Source129:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_pfp.bin
+# Source129-md5:	8929a87c20f87426578518e3fafa12f2
+Source130:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_rlc.bin
+# Source130-md5:	f8ee65f13adc45fe229a48128b7cd8f2
+Source131:	http://people.freedesktop.org/~agd5f/radeon_ucode/VERDE_smc.bin
+# Source131-md5:	2443ed77790c7ba390db43903b8eebd5
+Source132:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_ce.bin
+# Source132-md5:	1123f14e071294d577c65cbbc27884a7
+Source133:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_mc.bin
+# Source133-md5:	5e7f277ceff8dc0c4bb1f6f5146881db
+Source134:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_me.bin
+# Source134-md5:	1d011d8983d53edfde379e8916c0d97a
+Source135:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_mec.bin
+# Source135-md5:	58a1feec7052752a54315f38fc6b42cc
+Source136:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_pfp.bin
+# Source136-md5:	0ec706849290c7f481291edd4aa78aad
+Source137:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_rlc.bin
+# Source137-md5:	e094737cc1e7fc3fb30d3c17a86a69e6
+Source138:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_sdma.bin
+# Source138-md5:	11288f635737331b69de9ee82fe04898
+Source139:	http://people.freedesktop.org/~agd5f/radeon_ucode/bonaire_smc.bin
+# Source139-md5:	7df97bcc5b153abde3d4d808677605dc
+Source140:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_ce.bin
+# Source140-md5:	be79aea072cb7cb9b17496fb48c104ce
+Source141:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_mc.bin
+# Source141-md5:	3514600ac9b7bba9cc333ff621427b54
+Source142:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_me.bin
+# Source142-md5:	d8c0004dba65d877af5658a0af02ddde
+Source143:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_pfp.bin
+# Source143-md5:	7924437fc064cb08e3d9bec1ce1dec68
+Source144:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_rlc.bin
+# Source144-md5:	fb3c0ee0c077dd5f76d51c07d5a50732
+Source145:	http://people.freedesktop.org/~agd5f/radeon_ucode/hainan_smc.bin
+# Source145-md5:	7db1530ccaf78ff9fab04f118c1dc9c3
+Source146:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_ce.bin
+# Source146-md5:	9e05820da42549ce9c89d147cf1f8e19
+Source147:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_mc.bin
+# Source147-md5:	c8bab593090fc54f239c8d7596c8d846
+Source148:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_me.bin
+# Source148-md5:	3618dbb955d8a84970e262bb2e6d2a16
+Source149:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_mec.bin
+# Source149-md5:	c000b0fc9ff6582145f66504b0ec9597
+Source150:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_pfp.bin
+# Source150-md5:	0643ad24b3beff2214cce533e094c1b7
+Source151:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_rlc.bin
+# Source151-md5:	ba6054b7d78184a74602fd81607e1386
+Source152:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_sdma.bin
+# Source152-md5:	11288f635737331b69de9ee82fe04898
+Source153:	http://people.freedesktop.org/~agd5f/radeon_ucode/hawaii_smc.bin
+# Source153-md5:	284429675a5560e0fad42aa982965fc2
+Source154:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_ce.bin
+# Source154-md5:	1123f14e071294d577c65cbbc27884a7
+Source155:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_me.bin
+# Source155-md5:	0d18c7d2b00800e11ea36dd1f2865843
+Source156:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_mec.bin
+# Source156-md5:	ddbf1909f4adbd62bb6fa185fe91dd4d
+Source157:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_pfp.bin
+# Source157-md5:	44d44100ca58ebd214fb263e9d9fb460
+Source158:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_rlc.bin
+# Source158-md5:	7ce38ac95ca33974121971e8ca8986e3
+Source159:	http://people.freedesktop.org/~agd5f/radeon_ucode/kabini_sdma.bin
+# Source159-md5:	11288f635737331b69de9ee82fe04898
+Source160:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_ce.bin
+# Source160-md5:	1123f14e071294d577c65cbbc27884a7
+Source161:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_me.bin
+# Source161-md5:	0d18c7d2b00800e11ea36dd1f2865843
+Source162:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_mec.bin
 # Source162-md5:	77d1ecdbecc82ee4d94ce09c97820f45
-Source163:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_pfp.bin
-# Source163-md5:	df5521fc9d853fc13008578b484e44f7
-Source164:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_rlc.bin
-# Source164-md5:	1b2380e59b68451a8c46050687efa49e
-Source165:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_sdma.bin
-# Source165-md5:	11288f635737331b69de9ee82fe04898
-Source166:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_ce.bin
-# Source166-md5:	1123f14e071294d577c65cbbc27884a7
-Source167:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_me.bin
-# Source167-md5:	0d18c7d2b00800e11ea36dd1f2865843
-Source168:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_mec.bin
-# Source168-md5:	ddbf1909f4adbd62bb6fa185fe91dd4d
-Source169:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_pfp.bin
-# Source169-md5:	44d44100ca58ebd214fb263e9d9fb460
-Source170:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_rlc.bin
-# Source170-md5:	4d16fe764b732140b8d84ac9d1ed0d0b
-Source171:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_sdma.bin
-# Source171-md5:	11288f635737331b69de9ee82fe04898
-Source172:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_ce.bin
-# Source172-md5:	be79aea072cb7cb9b17496fb48c104ce
-Source173:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_mc.bin
-# Source173-md5:	a0b8dfd0955f40e392f35036cdde84c3
-Source174:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_me.bin
-# Source174-md5:	d8c0004dba65d877af5658a0af02ddde
-Source175:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_pfp.bin
-# Source175-md5:	06430b0012d1aec748680bf9d1f616ae
-Source176:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_rlc.bin
-# Source176-md5:	497d9541b1b7c5b0caf180e05b2ddcf5
-Source177:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_smc.bin
-# Source177-md5:	8f55c5d2368d005fc9c05f2de2af5a2e
-Source178:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_ce.bin
-# Source178-md5:	be79aea072cb7cb9b17496fb48c104ce
-Source179:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_mc.bin
-# Source179-md5:	4d6eec4a89a3a15cd1f22618f3e8a0b7
-Source180:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_me.bin
-# Source180-md5:	d8c0004dba65d877af5658a0af02ddde
-Source181:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_pfp.bin
-# Source181-md5:	c263945f893ada1a85135486aa0f732a
-Source182:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_rlc.bin
-# Source182-md5:	a8e38d17776e6a032446d971d9a96445
-Source183:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_smc.bin
-# Source183-md5:	2f7076443a2042de59a59c06f0f15027
-Source184:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_ce.bin
-# Source184-md5:	be79aea072cb7cb9b17496fb48c104ce
-Source185:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_mc.bin
-# Source185-md5:	30eaa855d5120ca35f6922ee09ac6056
-Source186:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_me.bin
-# Source186-md5:	d8c0004dba65d877af5658a0af02ddde
-Source187:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_pfp.bin
-# Source187-md5:	c263945f893ada1a85135486aa0f732a
-Source188:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_rlc.bin
-# Source188-md5:	137319b9041b5023488ee12eb6ba3f9e
-Source189:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_smc.bin
-# Source189-md5:	1aee773facceb082fbe7f5adde7bd71e
-Source190:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_ce.bin
-# Source190-md5:	be79aea072cb7cb9b17496fb48c104ce
-Source191:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_mc.bin
-# Source191-md5:	6b4a172cdaf957720d1cafe5e873734c
-Source192:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_me.bin
-# Source192-md5:	75172c1744d46c3e45afb2ec7539067d
-Source193:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_pfp.bin
-# Source193-md5:	0fd71615c3e95e4bead07f5d7cd34ed7
-Source194:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_rlc.bin
-# Source194-md5:	63c1f793fbb7ba25f82b4f464bdaacb5
-Source195:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_smc.bin
-# Source195-md5:	f11dc5d00a1ee06fba3860a343e0bf11
+Source163:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_mec2.bin
+# Source163-md5:	77d1ecdbecc82ee4d94ce09c97820f45
+Source164:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_pfp.bin
+# Source164-md5:	df5521fc9d853fc13008578b484e44f7
+Source165:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_rlc.bin
+# Source165-md5:	1b2380e59b68451a8c46050687efa49e
+Source166:	http://people.freedesktop.org/~agd5f/radeon_ucode/kaveri_sdma.bin
+# Source166-md5:	11288f635737331b69de9ee82fe04898
+Source167:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_ce.bin
+# Source167-md5:	1123f14e071294d577c65cbbc27884a7
+Source168:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_me.bin
+# Source168-md5:	0d18c7d2b00800e11ea36dd1f2865843
+Source169:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_mec.bin
+# Source169-md5:	ddbf1909f4adbd62bb6fa185fe91dd4d
+Source170:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_pfp.bin
+# Source170-md5:	44d44100ca58ebd214fb263e9d9fb460
+Source171:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_rlc.bin
+# Source171-md5:	4d16fe764b732140b8d84ac9d1ed0d0b
+Source172:	http://people.freedesktop.org/~agd5f/radeon_ucode/mullins_sdma.bin
+# Source172-md5:	11288f635737331b69de9ee82fe04898
+Source173:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_ce.bin
+# Source173-md5:	be79aea072cb7cb9b17496fb48c104ce
+Source174:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_mc.bin
+# Source174-md5:	a0b8dfd0955f40e392f35036cdde84c3
+Source175:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_me.bin
+# Source175-md5:	d8c0004dba65d877af5658a0af02ddde
+Source176:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_pfp.bin
+# Source176-md5:	06430b0012d1aec748680bf9d1f616ae
+Source177:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_rlc.bin
+# Source177-md5:	497d9541b1b7c5b0caf180e05b2ddcf5
+Source178:	http://people.freedesktop.org/~agd5f/radeon_ucode/oland_smc.bin
+# Source178-md5:	8f55c5d2368d005fc9c05f2de2af5a2e
+Source179:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_ce.bin
+# Source179-md5:	be79aea072cb7cb9b17496fb48c104ce
+Source180:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_mc.bin
+# Source180-md5:	4d6eec4a89a3a15cd1f22618f3e8a0b7
+Source181:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_me.bin
+# Source181-md5:	d8c0004dba65d877af5658a0af02ddde
+Source182:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_pfp.bin
+# Source182-md5:	c263945f893ada1a85135486aa0f732a
+Source183:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_rlc.bin
+# Source183-md5:	a8e38d17776e6a032446d971d9a96445
+Source184:	http://people.freedesktop.org/~agd5f/radeon_ucode/pitcairn_smc.bin
+# Source184-md5:	2f7076443a2042de59a59c06f0f15027
+Source185:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_ce.bin
+# Source185-md5:	be79aea072cb7cb9b17496fb48c104ce
+Source186:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_mc.bin
+# Source186-md5:	30eaa855d5120ca35f6922ee09ac6056
+Source187:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_me.bin
+# Source187-md5:	d8c0004dba65d877af5658a0af02ddde
+Source188:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_pfp.bin
+# Source188-md5:	c263945f893ada1a85135486aa0f732a
+Source189:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_rlc.bin
+# Source189-md5:	137319b9041b5023488ee12eb6ba3f9e
+Source190:	http://people.freedesktop.org/~agd5f/radeon_ucode/tahiti_smc.bin
+# Source190-md5:	1aee773facceb082fbe7f5adde7bd71e
+Source191:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_ce.bin
+# Source191-md5:	be79aea072cb7cb9b17496fb48c104ce
+Source192:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_mc.bin
+# Source192-md5:	6b4a172cdaf957720d1cafe5e873734c
+Source193:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_me.bin
+# Source193-md5:	75172c1744d46c3e45afb2ec7539067d
+Source194:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_pfp.bin
+# Source194-md5:	0fd71615c3e95e4bead07f5d7cd34ed7
+Source195:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_rlc.bin
+# Source195-md5:	63c1f793fbb7ba25f82b4f464bdaacb5
+Source196:	http://people.freedesktop.org/~agd5f/radeon_ucode/verde_smc.bin
+# Source196-md5:	f11dc5d00a1ee06fba3860a343e0bf11
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -416,7 +418,7 @@ cp -p %{SOURCE0} .
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT/lib/firmware/radeon
 
-cp -p %{expand:%(seq -f '%%%%SOURCE%g ' 1 195 | xargs)} \
+cp -p %{expand:%(seq -f '%%%%SOURCE%g ' 1 196 | xargs)} \
 	$RPM_BUILD_ROOT/lib/firmware/radeon
 
 %clean
